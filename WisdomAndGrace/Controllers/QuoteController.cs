@@ -8,7 +8,7 @@ using WisdomAndGrace.Repositories;
 namespace WisdomAndGrace.Controllers
 {
     [Authorize]
-    [Route("api/[controller]")]
+    [Route("/api/[controller]")]
     [ApiController]
     public class QuoteController : ControllerBase
     {
